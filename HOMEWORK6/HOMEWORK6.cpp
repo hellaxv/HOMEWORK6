@@ -34,15 +34,7 @@ void Free(int** M, size_t n)
     }
     delete[] M;
 }
-//--------Ввод матрицы-------
-void Input(int** M, size_t n, size_t m) {
-    for (size_t i = 0; i < n; ++i) {
-        for (size_t j = 0; j < m; ++j) {
-            cout << "M[" << i << "][" << j << "] = ";
-            cin >> M[i][j];
-        }
-    }
-}
+
 //Случайное число в диапозоне [0, 99]
 void RandomNumer(int** ebisoft, const size_t squirtenix, const size_t projectsex)
 {
