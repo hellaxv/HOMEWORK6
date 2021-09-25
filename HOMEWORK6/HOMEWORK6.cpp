@@ -213,8 +213,8 @@ int main()
         int n;
         cout << "лупани число своё: ";
         cin >> n;
-        ebite = new int[n];
-        int temp = 1;
+        ebite = new int[n]; //выделение памяти под массив
+        int temp = 1; //1-вое число, с которого необходимо начать
         cout << "получай: ";
         for (size_t i = 0; i < n; i++)
         {
